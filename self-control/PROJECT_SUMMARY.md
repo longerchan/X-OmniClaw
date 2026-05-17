@@ -95,11 +95,11 @@ data class ToolDefinition { ... }
 
 ```kotlin
 // app module
-import com.shijing.xomniclaw.agent.tools.Skill
+import com.jnz.wuclaw.agent.tools.Skill
 // ✅ 与 self-control 的定义兼容
 
 // self-control module
-import com.shijing.xomniclaw.selfcontrol.Skill
+import com.jnz.wuclaw.selfcontrol.Skill
 // ✅ 内部使用自己的定义
 ```
 

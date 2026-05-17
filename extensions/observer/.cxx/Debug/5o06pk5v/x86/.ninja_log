@@ -1,0 +1,4 @@
+# ninja log v7
+0	294	1778943023758502033	CMakeFiles/xomniclaw_aec.dir/src/main/cpp/xomniclaw_aec_bridge.cpp.o	613918db2b64df31
+295	311	1778943024053504475	../../../../build/intermediates/cxx/Debug/5o06pk5v/obj/x86/libxomniclaw_aec.so	99a8c043dca84afc
+1	23	1779019296082624522	../../../../build/intermediates/cxx/Debug/5o06pk5v/obj/x86/libxomniclaw_aec.so	99a8c043dca84afc

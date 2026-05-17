@@ -83,7 +83,7 @@
         </LinearLayout>
 
         <!-- 右下角拖拽以调整浮窗大小（与拖动手势分离，逻辑见 ScreenCompanionFloatWindow） -->
-        <com.shijing.xomniclaw.ui.floatwindow.CompanionResizeHandleView
+        <com.jnz.wuclaw.ui.floatwindow.CompanionResizeHandleView
             android:id="@+id/view_companion_resize_handle"
             android:layout_width="42dp"
             android:layout_height="42dp"

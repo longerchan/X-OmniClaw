@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/x86'
+[1/1] Linking CXX shared library ../../../../build/intermediates/cxx/Debug/5o06pk5v/obj/x86/libxomniclaw_aec.so

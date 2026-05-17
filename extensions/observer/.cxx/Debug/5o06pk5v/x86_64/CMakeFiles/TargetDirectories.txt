@@ -1,0 +1,3 @@
+/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/x86_64/CMakeFiles/xomniclaw_aec.dir
+/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/x86_64/CMakeFiles/edit_cache.dir
+/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/x86_64/CMakeFiles/rebuild_cache.dir

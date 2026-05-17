@@ -6,7 +6,7 @@
         <!-- ContentProvider: 通过 content:// URI 调用 -->
         <provider
             android:name=".SelfControlProvider"
-            android:authorities="com.shijing.xomniclaw.selfcontrol"
+            android:authorities="com.jnz.wuclaw.selfcontrol"
             android:exported="true"
             android:enabled="true" />
 
@@ -16,7 +16,7 @@
             android:exported="true"
             android:enabled="true">
             <intent-filter>
-                <action android:name="com.shijing.xomniclaw.SELF_CONTROL" />
+                <action android:name="com.jnz.wuclaw.SELF_CONTROL" />
             </intent-filter>
         </receiver>
 

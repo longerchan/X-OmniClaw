@@ -22,7 +22,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ./gradlew :app:connectedAndroidTest
 
 # Run a single test class
-./gradlew :app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.shijing.xomniclaw.ExampleTest
+./gradlew :app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.jnz.wuclaw.ExampleTest
 ```
 
 Requires JDK 17, Android SDK. Copy `local.properties.example` to `local.properties` and set `sdk.dir`. Use JDK 17 as JAVA_HOME (not JBR 21).
@@ -48,7 +48,7 @@ The agent loop is split across two layers:
 - **`AgentLoop.kt`** (`app/.../agent/loop/`) — Thin Kotlin bridge. Manages coroutine scope, SharedFlow for progress events, tool execution via `ToolCallDispatcher`, LLM HTTP calls via `UnifiedLLMProvider`. Creates a `KotlinBridge` callback object and passes it to Python.
 - **`agent_logic.py`** (`app/src/main/python/`) — Core business logic via Chaquopy. Handles iteration control, context budget enforcement, loop detection, incremental sensing, nudge injection, error tracking, and vision fallback decisions. Also `context_manager.py` (context pruning/compaction), `loop_detector.py` (drift/completion detection), `session_logger.py`, `utils.py`.
 
-### Key packages under `com.shijing.xomniclaw`
+### Key packages under `com.jnz.wuclaw`
 
 - **`core/`** — Application class, foreground service, message queue, entry point
 - **`agent/`** — The heart of the system:

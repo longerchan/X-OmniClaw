@@ -1,0 +1,9 @@
+{
+  "ndkVersionFromDsl": "26.1.10909125",
+  "sdkFolder": "/home/longerchan/Android/Sdk",
+  "sideBySideNdkFolderNames": [
+    "26.1.10909125",
+    "25.1.8937393",
+    "27.0.12077973"
+  ]
+}

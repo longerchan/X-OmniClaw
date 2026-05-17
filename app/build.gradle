@@ -37,7 +37,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.shijing.xomniclaw"
+        applicationId "com.jnz.wuclaw"
         minSdk 26
         targetSdk 34
         versionCode 19
@@ -146,7 +146,7 @@ android {
         kotlinCompilerExtensionVersion = "1.4.6"  // 匹配 Kotlin 1.8.20
     }
 
-    namespace 'com.shijing.xomniclaw'
+    namespace 'com.jnz.wuclaw'
 
     // 配置 APK 输出路径到根目录的 releases/
     applicationVariants.all { variant ->

@@ -21,4 +21,4 @@
 #-renamesourcefileattribute SourceFile
 
 # self-control 模块在 Manifest 中注册的 ContentProvider；若未来开启 R8 必须保留，否则启动即 ClassNotFound 崩溃
--keep class com.shijing.xomniclaw.selfcontrol.SelfControlProvider { *; }
+-keep class com.jnz.wuclaw.selfcontrol.SelfControlProvider { *; }

@@ -235,7 +235,7 @@ Skill: navigate_app
 Args: {page=config}
 
 Command:
-adb shell content call --uri content://com.shijing.xomniclaw.selfcontrol/execute --method navigate_app --extra page:s:config
+adb shell content call --uri content://com.jnz.wuclaw.selfcontrol/execute --method navigate_app --extra page:s:config
 
 📋 Copy and run this command on your development machine
 ```
@@ -246,7 +246,7 @@ adb shell content call --uri content://com.shijing.xomniclaw.selfcontrol/execute
 
 ```bash
 adb shell content call \
-  --uri content://com.shijing.xomniclaw.selfcontrol/execute \
+  --uri content://com.jnz.wuclaw.selfcontrol/execute \
   --method navigate_app \
   --extra page:s:config
 ```
@@ -255,7 +255,7 @@ adb shell content call \
 
 ```bash
 adb shell am broadcast \
-  -a com.shijing.xomniclaw.SELF_CONTROL \
+  -a com.jnz.wuclaw.SELF_CONTROL \
   --es skill navigate_app \
   --es page config
 ```
@@ -335,7 +335,7 @@ for device in $devices; do
 
     # 指定设备执行
     adb -s $device shell content call \
-      --uri content://com.shijing.xomniclaw.selfcontrol/execute \
+      --uri content://com.jnz.wuclaw.selfcontrol/execute \
       --method manage_config \
       --extra operation:s:set \
       --extra key:s:api_base_url \

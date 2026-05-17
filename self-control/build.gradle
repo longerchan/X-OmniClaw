@@ -29,7 +29,7 @@ android {
         jvmTarget = '17'
     }
 
-    namespace 'com.shijing.xomniclaw.selfcontrol'
+    namespace 'com.jnz.wuclaw.selfcontrol'
 }
 
 dependencies {

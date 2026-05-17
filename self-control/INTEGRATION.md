@@ -36,12 +36,12 @@ dependencies {
 **文件位置**: `app/src/main/java/com/xiaoming/omniclaw/agent/tools/SkillRegistry.kt`
 
 ```kotlin
-package com.shijing.xomniclaw.agent.tools
+package com.jnz.wuclaw.agent.tools
 
 import android.content.Context
 import android.util.Log
-import com.shijing.xomniclaw.providers.ToolDefinition
-import com.shijing.xomniclaw.selfcontrol.SelfControlRegistry  // ✅ 导入
+import com.jnz.wuclaw.providers.ToolDefinition
+import com.jnz.wuclaw.selfcontrol.SelfControlRegistry  // ✅ 导入
 
 class SkillRegistry(
     private val context: Context

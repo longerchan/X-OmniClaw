@@ -65,11 +65,11 @@
     <!-- Queries for specific apps can be added here if needed -->
     <queries>
         <!-- Example: <package android:name="com.android.settings" /> -->
-        <package android:name="com.shijing.xomniclaw" />
+        <package android:name="com.jnz.wuclaw" />
     </queries>
 
     <application
-        android:name="com.shijing.xomniclaw.core.MyApplication"
+        android:name="com.jnz.wuclaw.core.MyApplication"
         android:allowBackup="false"
         android:banner="@drawable/banner"
         android:extractNativeLibs="true"
@@ -82,7 +82,7 @@
         android:theme="@style/Theme.PhoneForClaw">
         <!-- 主页 - Compose版本 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.MainActivityCompose"
+            android:name="com.jnz.wuclaw.ui.activity.MainActivityCompose"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
@@ -95,102 +95,102 @@
 
         <!-- 主页 - 旧版XML (备用) -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.MainActivity"
+            android:name="com.jnz.wuclaw.ui.activity.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- 模型配置引导页（首次启动） -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.ModelSetupActivity"
+            android:name="com.jnz.wuclaw.ui.activity.ModelSetupActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- 模型配置页面（两页式） -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.ModelConfigActivity"
+            android:name="com.jnz.wuclaw.ui.activity.ModelConfigActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- STT Provider 配置页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.SttProviderConfigActivity"
+            android:name="com.jnz.wuclaw.ui.activity.SttProviderConfigActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- VLM Provider 配置页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.VlmProviderConfigActivity"
+            android:name="com.jnz.wuclaw.ui.activity.VlmProviderConfigActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- 配置页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.ConfigActivity"
+            android:name="com.jnz.wuclaw.ui.activity.ConfigActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- Skills 管理页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.SkillsActivity"
+            android:name="com.jnz.wuclaw.ui.activity.SkillsActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- 权限管理页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.PermissionsActivity"
+            android:name="com.jnz.wuclaw.ui.activity.PermissionsActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- Channel 列表页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.ChannelListActivity"
+            android:name="com.jnz.wuclaw.ui.activity.ChannelListActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- Feishu Channel 配置页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.FeishuChannelActivity"
+            android:name="com.jnz.wuclaw.ui.activity.FeishuChannelActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- Discord Channel 配置页面 -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.DiscordChannelActivity"
+            android:name="com.jnz.wuclaw.ui.activity.DiscordChannelActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
 
         <!-- 结果Activity -->
         <activity
-            android:name="com.shijing.xomniclaw.ui.activity.ResultActivity"
+            android:name="com.jnz.wuclaw.ui.activity.ResultActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 
         <!-- 前台服务（保活） -->
         <service
-            android:name="com.shijing.xomniclaw.core.ForegroundService"
+            android:name="com.jnz.wuclaw.core.ForegroundService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
         <!-- 定时任务执行前台服务（降低后台触发后实际执行延迟） -->
         <service
-            android:name="com.shijing.xomniclaw.scheduler.ScheduledTaskExecutionService"
+            android:name="com.jnz.wuclaw.scheduler.ScheduledTaskExecutionService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
         <!-- 相册记忆手动扫描前台服务（支持切后台后继续执行并展示进度） -->
         <service
-            android:name="com.shijing.xomniclaw.agent.memory.gallery.GalleryMemorySyncForegroundService"
+            android:name="com.jnz.wuclaw.agent.memory.gallery.GalleryMemorySyncForegroundService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
@@ -199,7 +199,7 @@
 
         <!-- 定时任务亮屏页（短生命周期，负责在息屏/锁屏场景下辅助拉起执行环境） -->
         <activity
-            android:name="com.shijing.xomniclaw.scheduler.ScheduledTaskWakeActivity"
+            android:name="com.jnz.wuclaw.scheduler.ScheduledTaskWakeActivity"
             android:excludeFromRecents="true"
             android:exported="false"
             android:finishOnTaskLaunch="true"
@@ -209,7 +209,7 @@
             android:turnScreenOn="true"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <service
-            android:name="com.shijing.xomniclaw.service.WebService"
+            android:name="com.jnz.wuclaw.service.WebService"
             android:enabled="true"
             android:exported="true" /> <!-- 文件提供者 - 系统级权限 -->
         <provider
@@ -224,27 +224,27 @@
 
         <!-- APK安装结果广播接收器 -->
         <receiver
-            android:name="com.shijing.xomniclaw.util.InstallManager$InstallResultBroadcastReceiver"
+            android:name="com.jnz.wuclaw.util.InstallManager$InstallResultBroadcastReceiver"
             android:enabled="true"
             android:exported="true"
             tools:ignore="Instantiatable" />
         <!-- Agent消息广播接收器 -->
         <receiver
-            android:name="com.shijing.xomniclaw.core.AgentMessageReceiver"
+            android:name="com.jnz.wuclaw.core.AgentMessageReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.shijing.xomniclaw.ACTION_EXECUTE_AGENT" />
+                <action android:name="com.jnz.wuclaw.ACTION_EXECUTE_AGENT" />
             </intent-filter>
         </receiver>
         <!-- 定时任务闹钟广播 -->
         <receiver
-            android:name="com.shijing.xomniclaw.scheduler.ScheduledTaskReceiver"
+            android:name="com.jnz.wuclaw.scheduler.ScheduledTaskReceiver"
             android:enabled="true"
             android:exported="false" />
         <!-- 开机后恢复定时任务 -->
         <receiver
-            android:name="com.shijing.xomniclaw.scheduler.ScheduledTaskBootReceiver"
+            android:name="com.jnz.wuclaw.scheduler.ScheduledTaskBootReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -254,7 +254,7 @@
         </receiver>
         <!-- Chat消息广播接收器 (用于ADB测试) -->
         <receiver
-            android:name="com.shijing.xomniclaw.util.ChatBroadcastReceiver"
+            android:name="com.jnz.wuclaw.util.ChatBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

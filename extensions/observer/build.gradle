@@ -54,7 +54,7 @@ android {
         disable 'ProtectedPermissions'
     }
 
-    namespace 'com.shijing.xomniclaw.accessibility'
+    namespace 'com.jnz.wuclaw.accessibility'
 }
 
 dependencies {

@@ -1,0 +1,4 @@
+/home/longerchan/.local/bin/ninja \
+  -C \
+  /home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/x86 \
+  xomniclaw_aec

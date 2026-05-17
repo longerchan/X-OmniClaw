@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 26 min SDK version: arm64-v8a",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -716669097
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 202712592
+  },
+  {
+    "level_": 0,
+    "message_": "- a file changed",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1978930628
+  },
+  {
+    "level_": 0,
+    "message_": "  - /home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a/android_gradle_build.json (LAST_MODIFIED_CHANGED)",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1886887305
+  },
+  {
+    "level_": 0,
+    "message_": "  - /home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a/compile_commands.json (LAST_MODIFIED_CHANGED)",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2102999919
+  },
+  {
+    "level_": 0,
+    "message_": "  - /home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a/prefab_config.json (LAST_MODIFIED_CHANGED)",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 733630590
+  },
+  {
+    "level_": 0,
+    "message_": "keeping json folder \u0027/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a\u0027 but regenerating project",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1118765729
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /usr/bin/cmake \\\n  -H/home/longerchan/oppo/X-OmniClaw/extensions/observer \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d26 \\\n  -DANDROID_PLATFORM\u003dandroid-26 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/longerchan/Android/Sdk/ndk/26.1.10909125 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/longerchan/Android/Sdk/ndk/26.1.10909125 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/longerchan/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/longerchan/.local/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/longerchan/oppo/X-OmniClaw/extensions/observer/build/intermediates/cxx/Debug/5o06pk5v/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/longerchan/oppo/X-OmniClaw/extensions/observer/build/intermediates/cxx/Debug/5o06pk5v/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1973858400
+  },
+  {
+    "level_": 0,
+    "message_": "/usr/bin/cmake \\\n  -H/home/longerchan/oppo/X-OmniClaw/extensions/observer \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d26 \\\n  -DANDROID_PLATFORM\u003dandroid-26 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/longerchan/Android/Sdk/ndk/26.1.10909125 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/longerchan/Android/Sdk/ndk/26.1.10909125 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/longerchan/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/longerchan/.local/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/longerchan/oppo/X-OmniClaw/extensions/observer/build/intermediates/cxx/Debug/5o06pk5v/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/longerchan/oppo/X-OmniClaw/extensions/observer/build/intermediates/cxx/Debug/5o06pk5v/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 83015937
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a/compile_commands.json.bin normally",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1748866106
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 513214563
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1843679649
+  }
+]

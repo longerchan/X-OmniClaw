@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jnz.wuclaw.accessibility" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+5-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+7-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:4:5-85
+7-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:4:22-82
+8    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+8-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:5:5-77
+8-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:5:22-74
+9    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+9-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:6:5-94
+9-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:6:22-91
+10    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+10-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:7:5-77
+10-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:7:22-74
+11
+12    <!-- 语音 / 视觉（PermissionActivity 一键授权会请求运行时权限） -->
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:10:5-65
+13-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:10:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:11:5-71
+14-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:11:22-68
+15
+16    <!-- 存储权限 -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:14:5-80
+17-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:14:22-77
+18    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+18-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:15:5-76
+18-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:15:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:16:5-81
+19-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:16:22-78
+20    <uses-permission
+20-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:17:5-18:38
+21        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+21-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:17:22-79
+22        android:minSdkVersion="30" />
+22-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:18:9-35
+23
+24    <application android:allowBackup="false" >
+24-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:20:5-51:15
+24-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:21:9-36
+25
+26        <!-- 权限请求 Activity -->
+27        <activity
+27-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:25:9-28:12
+28            android:name="com.jnz.wuclaw.accessibility.PermissionActivity"
+28-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:26:13-47
+29            android:exported="true" >
+29-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:27:17-40
+30        </activity>
+31
+32        <service
+32-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:30:9-41:19
+33            android:name="com.jnz.wuclaw.accessibility.service.PhoneAccessibilityService"
+33-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:31:13-62
+34            android:exported="true"
+34-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:32:13-36
+35            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+35-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:33:13-79
+36            <intent-filter>
+36-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:34:13-36:29
+37                <action android:name="android.accessibilityservice.AccessibilityService" />
+37-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:35:17-92
+37-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:35:25-89
+38            </intent-filter>
+39
+40            <meta-data
+40-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:38:13-40:72
+41                android:name="android.accessibilityservice"
+41-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:39:17-60
+42                android:resource="@xml/accessibility_service_config" />
+42-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:40:17-69
+43        </service>
+44        <service
+44-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:43:9-45:40
+45            android:name="com.jnz.wuclaw.accessibility.service.AccessibilityBinderService"
+45-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:44:13-63
+46            android:exported="false" />
+46-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:45:13-37
+47        <service
+47-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:47:9-50:63
+48            android:name="com.jnz.wuclaw.accessibility.ObserverForegroundService"
+48-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:48:13-54
+49            android:exported="false"
+49-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:49:13-37
+50            android:foregroundServiceType="mediaProjection" />
+50-->/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/AndroidManifest.xml:50:13-60
+51    </application>
+52
+53</manifest>

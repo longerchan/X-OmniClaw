@@ -11,7 +11,7 @@
 - **名称**: `self-control`
 - **类型**: Android Library Module
 - **依赖**: `app` module (compileOnly)
-- **包名**: `com.shijing.xomniclaw.selfcontrol`
+- **包名**: `com.jnz.wuclaw.selfcontrol`
 
 ---
 

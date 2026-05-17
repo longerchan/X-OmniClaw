@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/longerchan/oppo/X-OmniClaw/extensions/observer/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/longerchan/.local/bin/ninja",
+      "-C",
+      "/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/longerchan/.local/bin/ninja",
+    "-C",
+    "/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "xomniclaw_aec::@6890427a1f51a3e7e1df": {
+      "artifactName": "xomniclaw_aec",
+      "abi": "arm64-v8a",
+      "output": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/build/intermediates/cxx/Debug/5o06pk5v/obj/arm64-v8a/libxomniclaw_aec.so",
+      "runtimeFiles": []
+    }
+  }
+}
