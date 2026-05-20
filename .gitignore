@@ -1,33 +1,65 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
-render_readme_preview.*
-README_preview.html
-# 本机下载的 Prince 可执行包（勿提交）
-.tools/
-scripts_report/*
-videos/*.mp4
+### Android ###
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aab_
 
-# 本地/CI 放入的 Android 安装包（体积大，勿进 Git；正式下载以 GitHub Releases 为准）
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Native build
+.cxx/
+.externalNativeBuild/
+*.o
+*.obj
+
+# Local configuration (sdk path)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Proguard
+proguard/
+*.pro
+
+# Logs
+*.log
+*.hprof
+
+# Keystore
+*.jks
+*.keystore
+
+# Misc
+.tools/
 releases/*.apk
 *.backup
 scripts_rm
+scripts_report/*
+videos/*.mp4
+render_readme_preview.*
+README_preview.html

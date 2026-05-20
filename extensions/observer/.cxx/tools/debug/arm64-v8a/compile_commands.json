@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/.cxx/Debug/5o06pk5v/arm64-v8a",
-  "command": "/home/longerchan/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android26 --sysroot=/home/longerchan/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dxomniclaw_aec_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/xomniclaw_aec.dir/src/main/cpp/xomniclaw_aec_bridge.cpp.o -c /home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/cpp/xomniclaw_aec_bridge.cpp",
-  "file": "/home/longerchan/oppo/X-OmniClaw/extensions/observer/src/main/cpp/xomniclaw_aec_bridge.cpp"
-}
-]
